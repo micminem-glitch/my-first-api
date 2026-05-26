@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
@@ -21,6 +22,7 @@ app.get('/kist', (req, res) => {
 app.get('/micheal', (req, res) => {
     res.json({ micheal: "Michael is a name that means 'who is like God'." });
 });
-app.listen(3000, () => {
-  console.log('Server running on http://localhost:3000');
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
