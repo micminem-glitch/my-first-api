@@ -13,5 +13,14 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micminem-glitch/my-first-Api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/micminem-glitch/my-first-Api/issues"
+  },
+  "homepage": "https://github.com/micminem-glitch/my-first-Api#readme"
 }
